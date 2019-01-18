@@ -80,7 +80,7 @@ void plutoPilot()
 
 	Print.monitor("  Err  : ", e);
 	Print.redGraph(e);
-
+//	kalman_filter 
 //	kalman_gain = err_estimate / ( err_estimate +  err_measure);
 //	current_estimate = last_estimate + kalman_gain * ( e - last_estimate);
 //	err_estimate =  (1.0 - kalman_gain) * err_estimate + (( last_estimate - current_estimate) > 0 ? ( last_estimate - current_estimate): -1*( last_estimate - current_estimate)) * q;
